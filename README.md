@@ -1,2 +1,125 @@
-# BenchBrosCEO.github.io
-I am the CEO of BENCH BROS this is my website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+
+    <!-- STYLE SECTION -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            position: relative;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* LOGO (TOP RIGHT) */
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            width: 200px; /* bigger */
+        }
+
+        /* FOUNDED SECTION */
+        .founded {
+            text-align: center;
+            background-color: #444;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .founded h2 {
+            margin-bottom: 8px;
+        }
+
+        .founded p {
+            margin-top: 0;
+            font-size: 14px;
+            color: #ddd;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Bench Bros</h1>
+        <p>Gav knows when to rest you.</p>
+
+        <!-- LOGO IMAGE -->
+        <img src="BenchBros.jpg" alt="Bench Bros Logo" class="logo">
+    </header>
+
+    <!-- FOUNDED BY -->
+    <div class="founded">
+        <h2>Founded by Jacob, Dan Chad, and Ben</h2>
+        <p>March 28th 2026</p>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <h2>Main Heading</h2>
+        <p>
+            This is where your main content goes. Replace this text with your own.
+        </p>
+
+        <h3>Another Section</h3>
+        <p>
+            Add more sections, images, or anything you want here.
+        </p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Your Name</p>
+    </footer>
+
+</body>
+</html>
